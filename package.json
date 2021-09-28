@@ -1,0 +1,28 @@
+{
+  "name": "netninja_nodejs_lesson_26",
+  "version": "1.0.0",
+  "description": "test app to demo the EJS template-view engine",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelClautice/NetNinja_NodeJS_Lesson_26.git"
+  },
+  "keywords": [
+    "template-view",
+    "template-view",
+    "engine"
+  ],
+  "author": "Michael Clautice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelClautice/NetNinja_NodeJS_Lesson_26/issues"
+  },
+  "homepage": "https://github.com/MichaelClautice/NetNinja_NodeJS_Lesson_26#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

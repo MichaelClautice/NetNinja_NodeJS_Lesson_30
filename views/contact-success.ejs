@@ -1,0 +1,45 @@
+<!-- 
+Michael Clautice, Richmond, VA
+The Net Ninja - NodeJS Tutorial for Beginners
+Lesson 30 - Handling POST Requests
+----------- -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background: rgb(238, 46, 126);
+            font-family: verdana;
+            color: rgb(23, 44, 231);
+            padding: 30pt;
+        }
+
+        h1 {
+            font-size: 48px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <%- include ('partials/nav') %>
+        <p>This is a Demo for Lesson 30 - Handling POST Requests</p>
+        <p>This is the Contact-Success Pg, contact.ejs</p>
+        <h1>CONTACT SUCCESSFUL!</h1>
+        <p>This Contact Success pg, contact-success.ejs, is the server's response<br>
+            if the client successfully submitted data.</p>
+        <p>Thanks for getting in touch!</p>
+        <p>You contacted <%= data.who %> in the <%= data.department %> department.</p>
+        <p>We will reply to you at <%= data.email %>
+        </p>
+</body>
+
+</html>

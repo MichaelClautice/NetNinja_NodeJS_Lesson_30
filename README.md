@@ -3,10 +3,10 @@ Michael Clautice, Richmond, VA<br>
 The Net Ninja - NodeJS Tutorial for Beginners<br>
 Lesson 30 - Handling POST Requests
 
-• https://www.youtube.com/xxxxxxxxxxx
+• https://youtu.be/rin7gb9kdpk
 
-• The Lesson 30 app demonstrates xxxxxxxxxxxxxxxxxxxxxx
+• This Lesson 30 test app handles POST requests in Node and parses the posted data using body-parser, a module available on the npm.
 
-• xxxxxxxxxxxxxxxxxxxxxx
+• The client submits data from a form which fires the POST request handler which parses the data into the request body.
 
-• xxxxxxxxxxxxxxxxxxxxxx
+• The POST request handler then renders the contact-success template-view with the request body embedded in the HTML via the template engine’s EJS tags.
